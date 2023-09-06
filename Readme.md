@@ -62,6 +62,8 @@ This is a React Capstone Project which it's core goal is to display details of a
 
 - [Live Demo Link](https://react-capstone-project-jgai.onrender.com/)
 
+-[presentation] (https://www.loom.com/share/7824a0ff16de4389b9f31c7fef55717e?sid=e0cfd108-213e-4916-99bb-c9dbe05c2a78)
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
