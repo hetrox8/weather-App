@@ -1,19 +1,19 @@
-/* eslint-disable linebreak-style */
+// eslint-disable-next-line import/no-extraneous-dependencies
 import renderer from 'react-test-renderer';
 import { Provider } from 'react-redux';
 import { BrowserRouter } from 'react-router-dom';
 import store from '../Redux/store';
-import Navbar from '../Components/Navbar';
+import Countries from '../Components/Countries';
 
-describe('Navbar', () => {
+describe('', () => {
   it('testing render component', () => {
-    const nav = renderer.create(
+    const count = renderer.create(
       <Provider store={store}>
         <BrowserRouter>
-          <Navbar />
+          <Countries />
         </BrowserRouter>
       </Provider>,
     ).toJSON();
-    expect(nav).toMatchSnapshot();
+    expect(count).toMatchSnapshot();
   });
 });

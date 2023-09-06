@@ -30,8 +30,7 @@
   - [📝 License ](#-license-)
 
 # 📖 Math_Magicians <a name="about-project"></a>
-
-This project's main feature is for the client to perform mathematical calculations and to display random Math Quotes
+This is a React Capstone Project which it's core goal is to display details of a country including population , area and it's Capital city
 
 ## 🛠 Built With <a name="built-with"></a>
 - HTML
@@ -148,7 +147,9 @@ If you like this project give me a star.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank Microverse.
+I would like to thank Microverse for their ever support towards completion of the project.
+I would like to give credit to Nelson Sakwa for their design, which was used in accordance with the Creative Commons License. Thank you, Nelson Sakwa!
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
