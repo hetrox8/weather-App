@@ -1,24 +1,22 @@
-/* eslint-disable func-names */
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
-const Country = function ({ name, flagEmoji, continent }) {
-  return (
-    <Link to={`/country/${name}`}>
-      <li>
-        <h2>
-          {name}
-          <br />
-          {flagEmoji}
-        </h2>
-        <p>
-          {continent}
-        </p>
-      </li>
-    </Link>
-  );
-};
+// eslint-disable-next-line react/function-component-definition
+const Country = ({ name, flagEmoji, continent }) => (
+  <Link to={`/country/${name}`} className="country-link">
+    <li className="country-item">
+      <h2 className="country-name">
+        {name}
+        <br />
+        <span className="flag">{flagEmoji}</span>
+      </h2>
+      <p className="country-continent">
+        {continent}
+      </p>
+    </li>
+  </Link>
+);
 
 Country.propTypes = {
   name: PropTypes.string.isRequired,

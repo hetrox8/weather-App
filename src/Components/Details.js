@@ -1,10 +1,12 @@
-/* eslint-disable react/jsx-no-useless-fragment */
-import { useParams } from 'react-router-dom';
+/* eslint-disable react/function-component-definition */
+import { useParams, NavLink } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
+// eslint-disable-next-line import/no-extraneous-dependencies
+import { FiArrowLeft } from 'react-icons/fi';
 import { fetchCountries } from '../Redux/countrySlice';
 
-function Details() {
+const Details = () => {
   const { countryId } = useParams();
   const dispatch = useDispatch();
   const countries = useSelector((state) => state.countries);
@@ -19,13 +21,16 @@ function Details() {
 
   return (
     <>
+      <NavLink to="/">
+        <FiArrowLeft />
+      </NavLink>
       {country && (
-        <div>
-          <div>
+        <div className="details-container">
+          <div className="details-header">
             <img src={country.flagSvg} alt={country.flagAlt} />
             <h1>{country.name}</h1>
           </div>
-          <ul>
+          <ul className="details-list">
             <li>
               <span>Capital:</span>
               {' '}
@@ -59,6 +64,6 @@ function Details() {
       )}
     </>
   );
-}
+};
 
 export default Details;
