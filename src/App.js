@@ -1,12 +1,19 @@
-import Rates from './Components/Countries';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import Countries from './Components/Countries';
+import Details from './Components/Details';
 import Navbar from './Components/Navbar';
-import './Styles/Nav.css';
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <Rates />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Navbar />}>
+            <Route path="/" element={<Countries />} />
+            <Route path="/country/:countryId" element={<Details />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }
