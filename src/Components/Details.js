@@ -2,7 +2,6 @@
 import { useParams, NavLink } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { useEffect } from 'react';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { FiArrowLeft } from 'react-icons/fi';
 import { fetchCountries } from '../Redux/countrySlice';
 

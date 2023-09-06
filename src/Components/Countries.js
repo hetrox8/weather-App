@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { FiArrowRightCircle } from 'react-icons/fi';
 import { fetchCountries } from '../Redux/countrySlice';
 import Country from './Country';

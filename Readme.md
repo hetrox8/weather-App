@@ -11,7 +11,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [📖 Math_Magician ](#-learderboard-)
+- [📖React Capstone ](#-weather-app-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -29,11 +29,12 @@
   - [🙏 Acknowledgments ](#-acknowledgments-)
   - [📝 License ](#-license-)
 
-# 📖 Math_Magicians <a name="about-project"></a>
+# 📖 React Capstone Project <a name="about-project"></a>
 This is a React Capstone Project which it's core goal is to display details of a country including population , area and it's Capital city
 
 ## 🛠 Built With <a name="built-with"></a>
-- HTML
+- Redux
+- Html
 - CSS
 - JAVASCRIPT
 -React.js
@@ -57,9 +58,9 @@ This is a React Capstone Project which it's core goal is to display details of a
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-<!-- ## 🚀 Live Demo <a name="live-demo"></a>
+ ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo Link](https://hetrox8.github.io/First-Capstone-Project/)
+- [Live Demo Link](https://react-capstone-project-jgai.onrender.com/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p> -->
 
@@ -80,7 +81,7 @@ In order to run this project you need:
 Clone this repository to your desired folder:
 
 ```
-git clone your link repo https://github.com/hetrox8/Javascript-Capstone.git
+git clone your link repo https://github.com/hetrox8/react-capstone-project.git
 
 cd your folder name
 ```
